@@ -12,7 +12,7 @@ namespace Problems.Problem_3
             Console.WriteLine("Kids with greatest candies: [" + string.Join(", ", KidsWithGreatestCandies(candies, extraCandies)) + "]");
         }
 
-        public IList<bool> KidsWithGreatestCandies(int[] candies, int extraCandies)
+        private static IList<bool> KidsWithGreatestCandies(int[] candies, int extraCandies)
         {
             int candiesLength = candies.Length, maxCandies = 0;
             var kidsGreatestCandies = new List<bool>(candiesLength);

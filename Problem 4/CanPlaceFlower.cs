@@ -13,7 +13,7 @@ namespace Problems.Problem_4
             Console.WriteLine("Can place flowers: " + CanPlaceFlowers(flowerbed, n));
         }
 
-        public bool CanPlaceFlowers(int[] flowerbed, int n)
+        private static bool CanPlaceFlowers(int[] flowerbed, int n)
         {
             int bedLength = flowerbed.Length;
 

@@ -3,7 +3,6 @@ namespace Problems.Problem_5
 {
     public class VowelsReverse
     {
-
         public VowelsReverse(string s)
         {
             Console.WriteLine("Original String: " + s);
